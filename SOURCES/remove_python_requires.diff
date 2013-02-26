@@ -1,0 +1,82 @@
+--- ius-tools-0.1.6/src/iustools.admin/setup.py.orig	2011-06-29 10:37:24.000000000 -0500
++++ ius-tools-0.1.6/src/iustools.admin/setup.py	2011-06-29 10:37:42.000000000 -0500
+@@ -16,10 +16,6 @@
+     include_package_data=True,
+     zip_safe=False,
+     install_requires=[
+-        "genshi",
+-        "cement >=0.8.16, <0.9",
+-        "iustools.core==0.1.6",
+-        "pexpect",
+         ],
+     setup_requires=[
+         ],
+
+--- ius-tools-0.1.6/src/iustools.core/setup.py.orig	2011-06-29 10:37:24.000000000 -0500
++++ ius-tools-0.1.6/src/iustools.core/setup.py	2011-06-29 10:37:46.000000000 -0500
+@@ -15,12 +15,6 @@
+     include_package_data=True,
+     zip_safe=False,
+     install_requires=[
+-        "configobj",
+-        # remove if not using genshi templating
+-        "genshi",
+-        "cement >=0.8.16, <0.9",
+-        "monkeyfarm.core >=2.0.3",
+-        "monkeyfarm.interface >=2.0.3",
+         ],
+     setup_requires=[
+         # uncomment for nose testing
+
+--- ius-tools-0.1.6/src/iustools.example/setup.py.orig	2011-06-29 10:37:24.000000000 -0500
++++ ius-tools-0.1.6/src/iustools.example/setup.py	2011-06-29 10:37:49.000000000 -0500
+@@ -16,9 +16,6 @@
+     include_package_data=True,
+     zip_safe=False,
+     install_requires=[
+-        "genshi",
+-        "cement >=0.8.16, <0.9",
+-        "iustools.core==0.1.6",
+         ],
+     setup_requires=[
+         ],
+
+--- ius-tools-0.1.6/src/iustools.ircbot/setup.py.orig	2011-06-29 10:37:24.000000000 -0500
++++ ius-tools-0.1.6/src/iustools.ircbot/setup.py	2011-06-29 10:37:52.000000000 -0500
+@@ -16,9 +16,6 @@
+     include_package_data=True,
+     zip_safe=False,
+     install_requires=[
+-        "genshi",
+-        "cement >=0.8.16, <0.9",
+-        "iustools.core==0.1.6",
+         ],
+     setup_requires=[
+         ],
+
+--- ius-tools-0.1.6/src/iustools.launchpad/setup.py.orig	2011-06-29 10:37:24.000000000 -0500
++++ ius-tools-0.1.6/src/iustools.launchpad/setup.py	2011-06-29 10:37:55.000000000 -0500
+@@ -16,10 +16,6 @@
+     include_package_data=True,
+     zip_safe=False,
+     install_requires=[
+-        "genshi",
+-        "cement >=0.8.16, <0.9",
+-        "iustools.core==0.1.6",
+-        "launchpadlib",
+         ],
+     setup_requires=[
+         ],
+
+--- ius-tools-0.1.6/src/iustools.version_tracker/setup.py.orig	2011-06-29 10:37:24.000000000 -0500
++++ ius-tools-0.1.6/src/iustools.version_tracker/setup.py	2011-06-29 10:37:57.000000000 -0500
+@@ -15,9 +15,6 @@
+     include_package_data=True,
+     zip_safe=False,
+     install_requires=[
+-        "genshi",
+-        "cement >=0.8.16, <0.9",
+-        "iustools.core==0.1.6",
+         ],
+     setup_requires=[
+         ],
